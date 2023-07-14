@@ -1,0 +1,60 @@
+@import "variables";
+@import "globales";
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22rem;
+    width: 100%;
+    border-bottom: .2rem solid var(--blanco);
+    background-color: var(--gris);
+}
+
+.header__img {
+    height: 20rem;
+}
+
+.nav_container {
+    background-color: var(--negro);
+    width: 100%;
+    border-bottom: .2rem solid var(--blanco);
+
+}
+
+.navbar {
+    height: 5rem;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar__link {
+    font-size: 2rem;
+}
+
+//  contenido de la pagina
+
+.main {}
+
+.info {
+    border-bottom: .3rem solid white;
+    background-image: url(/img/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info__img {
+    margin: 2rem 8rem;
+}
